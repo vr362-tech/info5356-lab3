@@ -1,0 +1,10 @@
+anthropic
+python-dotenv
+numpy
+Pillow
+faster-whisper
+soundfile
+# reachy_mini -- install the version that matches YOUR robot's daemon
+# firmware, not blindly 1.12.0. Check with:
+#   python -c "from reachy_mini import ReachyMini"  (it'll warn on mismatch)
+# then: pip install reachy_mini==<matching version>

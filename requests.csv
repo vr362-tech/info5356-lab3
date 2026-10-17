@@ -1,0 +1,13 @@
+trial_id,condition,request_text,label,mode,correct_object,setup_hint
+C1-1,C1,Look at the deep bowl.,clear,always_act,deep bowl,"Set out BOTH bowls together: the large white footed bowl (deep) + the small white scalloped dish (shallow)."
+C1-2,C1,Look at the orange notebook.,clear,always_act,orange notebook,"Set out BOTH notebooks together: the cream/orange 'Calculus' cover + the teal 'Statistics' cover."
+C1-3,C1,Look at the small spoon.,clear,always_act,small spoon,"Set out BOTH spoons together: the large serving spoon + the small teaspoon."
+C1-4,C1,Look at the phone with the tan cardholder case.,clear,always_act,tan cardholder phone,"Set out BOTH phones together: the cream floral-case phone + the tan cardholder-case phone."
+C2-1,C2,Look at the bowl.,ambiguous,always_act,deep bowl,"Set out BOTH bowls together: the large white footed bowl (deep) + the small white scalloped dish (shallow)."
+C2-2,C2,Look at the notebook.,ambiguous,always_act,orange notebook,"Set out BOTH notebooks together: the cream/orange 'Calculus' cover + the teal 'Statistics' cover."
+C2-3,C2,Look at the paper.,ambiguous,always_act,blank paper,"Set out BOTH papers together: the blank white sheet + the sheet covered in handwritten notes."
+C2-4,C2,Look at the chopsticks.,ambiguous,always_act,pair of chopsticks,"Set out BOTH chopstick sets together: the single matched pair (gold-tipped) + the loose bunch of about 7-8 sticks."
+C3-1,C3,Look at the bowl.,ambiguous,ask_when_ambiguous,deep bowl,"Set out BOTH bowls together: the large white footed bowl (deep) + the small white scalloped dish (shallow)."
+C3-2,C3,Look at the notebook.,ambiguous,ask_when_ambiguous,orange notebook,"Set out BOTH notebooks together: the cream/orange 'Calculus' cover + the teal 'Statistics' cover."
+C3-3,C3,Look at the paper.,ambiguous,ask_when_ambiguous,blank paper,"Set out BOTH papers together: the blank white sheet + the sheet covered in handwritten notes."
+C3-4,C3,Look at the chopsticks.,ambiguous,ask_when_ambiguous,pair of chopsticks,"Set out BOTH chopstick sets together: the single matched pair (gold-tipped) + the loose bunch of about 7-8 sticks."
