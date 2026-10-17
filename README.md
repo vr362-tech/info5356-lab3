@@ -19,7 +19,12 @@ camera frame (JPEG)
 
 ```
 python3 -m venv venv
-source venv/bin/activate
+
+source venv/bin/activate   # for macOS/Linux user only
+
+.\venv\Scripts\python.exe -m pip install -r requirements.txt  # for Windows user only
+.\venv\Scripts\python.exe -m pip install reachy-mini
+
 pip install -r requirements.txt
 pip install reachy-mini    # already installed if you're reusing the Lab 2 venv
 
