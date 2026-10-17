@@ -53,6 +53,8 @@ python request_interpreter.py "look at the cup"
 Put an actual photo of your test table (red cup, blue cup, book, or
 whatever your real objects are) at `test_images/table.jpg` first.
 
+You may change "cup" to any item you have in the photo `table.jpg`.
+
 ## Running a full trial
 
 No robot (fastest iteration loop):
@@ -60,12 +62,16 @@ No robot (fastest iteration loop):
 python trial_runner.py --image ../test_images/table.jpg \
     --request "look at the cup" --mode ask_when_ambiguous --label ambiguous
 ```
+You may change "cup" to any item you have in the photo `table.jpg`.
 
 On the robot:
+
+Before running the following command, open `.env` and enter the real `ROBOT_IP`.
 ```
 python trial_runner.py --robot --request "look at the cup" \
     --mode ask_when_ambiguous --label ambiguous
 ```
+You may change "cup" to any item you have in the photo `table.jpg`.
 
 Batch (every row in requests.csv, same photo or same robot session,
 compare both modes):
